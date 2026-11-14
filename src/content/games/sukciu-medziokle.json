@@ -1,0 +1,135 @@
+{
+  "kind": "fraud",
+  "slug": "sukciu-medziokle",
+  "title": "Sukčių medžioklė",
+  "summary": "Dešimt žinučių, laiškų ir skelbimų. Pasakyk, kas sukčiai, o kas tikra, ir pažymėk įspėjamuosius ženklus.",
+  "minutes": 5,
+  "topic": "sukciai",
+  "intro": "Kiekvienam pranešimui turi 15 sekundžių. Nuspręsk, ar tai sukčiavimas, ir pažymėk ženklus, kurie tave įspėjo. Greitesni atsakymai gauna daugiau taškų, bet už neteisingus ženklus taškai mažinami.",
+  "flagOptions": [
+    { "id": "skubos-spaudimas", "label": "Spaudžia skubėti" },
+    { "id": "keista-nuoroda", "label": "Įtartina nuoroda ar adresas" },
+    { "id": "prasoma-duomenu", "label": "Prašo kodų, slaptažodžių ar kortelės duomenų" },
+    { "id": "per-geras-pasiulymas", "label": "Žada per didelį pelną ar nuolaidą" },
+    { "id": "netikras-siuntejas", "label": "Siuntėjas apsimeta kitu žmogumi ar įstaiga" }
+  ],
+  "items": [
+    {
+      "id": "siunta-sms",
+      "channel": "sms",
+      "sender": "Nežinomas numeris",
+      "body": "Jūsų siunta sulaikyta. Sumokėkite 1,99 € rinkliavą per 24 val.: siuntos-lt.top/mokejimas",
+      "isScam": true,
+      "flags": [
+        { "id": "skubos-spaudimas", "text": "Duoda tik 24 valandas." },
+        { "id": "keista-nuoroda", "text": "Adresas baigiasi .top ir nepriklauso jokiai siuntų įmonei." }
+      ],
+      "explain": "Tikros siuntų įmonės neprašo mokėti per nežinomas nuorodas. Maža suma sukurta tam, kad išviliotų kortelės duomenis."
+    },
+    {
+      "id": "vmi-laiskas",
+      "channel": "email",
+      "sender": "vmi-grazinimas@mokesciai-info.com",
+      "subject": "Jums priklauso 214,60 € mokesčių permoka",
+      "body": "Gerb. mokesčių mokėtojau, norėdami gauti permoką, per 48 valandas patvirtinkite savo banko prisijungimo duomenis nuorodoje žemiau.",
+      "isScam": true,
+      "flags": [
+        { "id": "netikras-siuntejas", "text": "Apsimeta mokesčių inspekcija, bet adresas nėra oficialus." },
+        { "id": "prasoma-duomenu", "text": "Prašo banko prisijungimo duomenų." },
+        { "id": "skubos-spaudimas", "text": "Duoda tik 48 valandas." }
+      ],
+      "explain": "Valstybinės institucijos neprašo banko duomenų el. paštu. Permoką visada gali pasitikrinti pats, prisijungęs prie savo e-VMI paskyros."
+    },
+    {
+      "id": "banko-kortele-sms",
+      "channel": "sms",
+      "sender": "Jūsų bankas",
+      "body": "Jūsų kortele ****4821 parduotuvėje sumokėta 23,40 €. Jei tai ne jūs, skambinkite numeriu, nurodytu ant kortelės.",
+      "isScam": false,
+      "flags": [],
+      "explain": "Tai informacinė žinutė be nuorodos ir be prašymo skubiai ką nors daryti. Skambinant verta rinkti numerį nuo kortelės, o ne iš žinutės."
+    },
+    {
+      "id": "investicijos-reklama",
+      "channel": "ad",
+      "sender": "Reklama socialiniame tinkle",
+      "subject": "Lietuvis uždirba 3 000 € per savaitę",
+      "body": "Nauja dirbtinio intelekto platforma garantuoja 40 % grąžos per mėnesį. Įneškite 250 € ir pradėkite šiandien. Liko tik 5 vietos.",
+      "isScam": true,
+      "flags": [
+        { "id": "per-geras-pasiulymas", "text": "Garantuoja 40 % grąžos per mėnesį, o to niekas negali pažadėti." },
+        { "id": "skubos-spaudimas", "text": "Spaudžia pradėti šiandien dėl „likusių vietų“." }
+      ],
+      "explain": "Garantuota didelė grąža yra pagrindinis investicinio sukčiavimo požymis. Tikros investicijos visada turi riziką ir niekada negarantuoja pelno."
+    },
+    {
+      "id": "algalapis-laiskas",
+      "channel": "email",
+      "sender": "Jūsų darbdavys",
+      "subject": "Algalapis už spalio mėnesį",
+      "body": "Sveiki, prisegtas spalio mėnesio algalapis. Jį rasite ir įmonės savitarnos sistemoje, prisijungę įprastu būdu.",
+      "isScam": false,
+      "flags": [],
+      "explain": "Laiške nėra prašymo įvesti duomenis, nėra skubos ir nuorodų į kitas svetaines. Saugiausia vis tiek atidaryti savitarnos sistemą pačiam."
+    },
+    {
+      "id": "mama-sms",
+      "channel": "sms",
+      "sender": "Naujas numeris",
+      "body": "Mama, pakeičiau numerį. Man skubiai reikia 350 €, pervesk į šią sąskaitą, vėliau paaiškinsiu.",
+      "isScam": true,
+      "flags": [
+        { "id": "netikras-siuntejas", "text": "Apsimeta artimuoju, bet rašo iš nepažįstamo numerio." },
+        { "id": "skubos-spaudimas", "text": "Reikalauja pervesti pinigus skubiai ir be paaiškinimų." }
+      ],
+      "explain": "Prieš siųsdamas pinigus paskambink artimajam senuoju numeriu. Tikras žmogus supras, kodėl tikrini."
+    },
+    {
+      "id": "banko-blokavimas",
+      "channel": "email",
+      "sender": "saugumas@jusu-bankas-lt.net",
+      "subject": "Jūsų sąskaita bus užblokuota",
+      "body": "Aptikome įtartiną veiklą. Per 2 valandas įveskite SMS kodą ir slaptažodį čia: jusu-bankas-lt.net/patvirtinti, kitaip sąskaita bus užblokuota.",
+      "isScam": true,
+      "flags": [
+        { "id": "netikras-siuntejas", "text": "Apsimeta banku, bet laiškas ateina iš svetimo domeno." },
+        { "id": "prasoma-duomenu", "text": "Prašo SMS kodo ir slaptažodžio." },
+        { "id": "skubos-spaudimas", "text": "Grasina užblokuoti sąskaitą per 2 valandas." },
+        { "id": "keista-nuoroda", "text": "Nuoroda veda į ne banko puslapį." }
+      ],
+      "explain": "Bankas niekada neprašo slaptažodžio ar SMS kodo laišku. Jei abejoji, uždaryk laišką ir prisijunk prie banko pats, įvesdamas adresą rankomis."
+    },
+    {
+      "id": "sporto-reklama",
+      "channel": "ad",
+      "sender": "Reklama: sporto prekių parduotuvė",
+      "subject": "Rudens nuolaidos iki 20 %",
+      "body": "Bėgimo batai nuo 49 €. Nuolaidos galioja iki sekmadienio. Visas sąlygas rasite parduotuvės svetainėje.",
+      "isScam": false,
+      "flags": [],
+      "explain": "Nuolaida nedidelė ir tikėtina, sąlygos aiškios, nieko neprašoma. Prieš pirkdamas vis tiek patikrink, ar adresas yra tikros parduotuvės."
+    },
+    {
+      "id": "poliklinika-sms",
+      "channel": "sms",
+      "sender": "Poliklinika",
+      "body": "Primename: rytoj 10:30 laukiame jūsų pas šeimos gydytoją. Jei negalite atvykti, praneškite registratūrai.",
+      "isScam": false,
+      "flags": [],
+      "explain": "Primename apie vizitą, bet neprašome pinigų, kodų ar paspausti nuorodos. Tai įprasta registratūros žinutė."
+    },
+    {
+      "id": "dovanu-kuponas-sms",
+      "channel": "sms",
+      "sender": "Nežinomas numeris",
+      "body": "Laimėjote 500 € dovanų kuponą! Atsiimkite per 30 min.: dovana-lietuva.xyz",
+      "isScam": true,
+      "flags": [
+        { "id": "per-geras-pasiulymas", "text": "Žada prizą, nors niekur nedalyvavai." },
+        { "id": "skubos-spaudimas", "text": "Duoda tik 30 minučių." },
+        { "id": "keista-nuoroda", "text": "Adresas baigiasi .xyz ir nepriklauso jokiai žinomai parduotuvei." }
+      ],
+      "explain": "Negali laimėti loterijos, kurioje nedalyvavai. Tokios nuorodos renka asmens ir kortelės duomenis."
+    }
+  ]
+}

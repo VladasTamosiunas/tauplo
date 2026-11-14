@@ -1,0 +1,100 @@
+{
+  "slug": "pensijos-ii-iii-pakopa",
+  "title": "II ir III pensijų pakopa",
+  "audience": "suaugusieji",
+  "level": "pazenge",
+  "topic": "pensijos",
+  "xp": 200,
+  "certificate": true,
+  "passPct": 70,
+  "summary": "Suprask, iš ko susideda pensija Lietuvoje, kaip veikia II ir III pakopa ir kaip pasirinkti fondą be klaidų.",
+  "lessons": [
+    {
+      "slug": "trys-saltiniai",
+      "title": "Trys pensijos šaltiniai",
+      "minutes": 6,
+      "body": [
+        "Lietuvoje pensija gali susidaryti iš trijų dalių, vadinamų pakopomis. I pakopa yra valstybinis socialinis draudimas, kurį administruoja Sodra. II ir III pakopos yra kaupimas pensijų fonduose.",
+        "I pakopos pensija priklauso nuo tavo darbo stažo ir uždarbio. Ji finansuojama iš einamųjų įmokų, todėl jos dydis ateityje gali keistis.",
+        "II ir III pakopos yra papildomas kaupimas. Jos nepakeičia valstybinės pensijos, o ją papildo."
+      ],
+      "takeaway": "Pensiją sudaro valstybinė dalis ir kaupimas, kuriam gali tarti žodį pats."
+    },
+    {
+      "slug": "ii-pakopa",
+      "title": "Kaip veikia II pakopa",
+      "minutes": 7,
+      "body": [
+        "II pakopoje dalis socialinio draudimo įmokų už tave keliauja į pasirinktą pensijų fondą. Taip kaupiamas asmeninis kapitalas.",
+        "Tavo pinigai investuojami, todėl fondo vertė gali ir augti, ir kristi. Ilgalaikėje perspektyvoje rizika dažniausiai mažėja.",
+        "Konkrečias taisykles, įmokų dydžius ir dalyvavimo sąlygas keičia įstatymai. Prieš priimdamas sprendimą visada patikrink aktualią informaciją svetainėje sodra.lt."
+      ],
+      "takeaway": "II pakopos pinigai priklauso tau, o jų vertė kinta kartu su rinka."
+    },
+    {
+      "slug": "iii-pakopa",
+      "title": "III pakopa ir mokesčių lengvata",
+      "minutes": 6,
+      "body": [
+        "III pakopa yra savanoriškas kaupimas. Pats pasirenki, kiek ir kada atidėti, o kartais ir darbdavys prisideda.",
+        "Už tam tikras įmokas gali būti taikoma gyventojų pajamų mokesčio lengvata, tačiau jos dydis ir sąlygos nustatomos įstatymais ir gali keistis.",
+        "Prieš dedant pinigus, būtina išsiaiškinti, kada galima juos atsiimti ir kokios sąlygos taikomos. Atnaujintą informaciją rasi vmi.lt."
+      ],
+      "takeaway": "III pakopa yra tavo valia, bet prieš kaupdamas sužinok atsiėmimo sąlygas."
+    },
+    {
+      "slug": "fondo-pasirinkimas",
+      "title": "Fondo pasirinkimas",
+      "minutes": 7,
+      "body": [
+        "Fondai skiriasi pagal strategiją: vieni labiau rizikingi ir turi daugiau akcijų, kiti ramesni ir turi daugiau obligacijų. Dažna taisyklė yra rizikingesnė strategija jaunesniems ir ramesnė, artėjant prie pensijos.",
+        "Svarbu palyginti ne tik praėjusių metų grąžą, bet ir mokesčius. Net 1 % metinis skirtumas per kelis dešimtmečius sudaro didelę sumą.",
+        "Praėjusių metų rezultatai negarantuoja ateities. Rinkis fondą, kurio strategiją supranti."
+      ],
+      "takeaway": "Lygink fondų strategijas ir mokesčius, o ne vien praėjusių metų grąžą."
+    },
+    {
+      "slug": "komisiniai-ir-rizikos",
+      "title": "Komisiniai ir rizikos",
+      "minutes": 6,
+      "body": [
+        "Kiekvienas fondas už valdymą ima mokestį. Jis atrodo mažas, bet kasmet mažina sukauptą sumą, todėl ilgą laiką jis labai svarbus.",
+        "Rizika yra ir infliacija. Jei pinigai auga lėčiau nei kainos, jų perkamoji galia mažėja.",
+        "Vienas fondas netinka visiems. Rizikos toleranciją ir tikslą verta aptarti su nepriklausomu patarėju, kuris negauna komisinių už pardavimą."
+      ],
+      "takeaway": "Valdymo mokestis ir infliacija tyliai mažina ilgalaikį kaupimą."
+    }
+  ],
+  "quiz": [
+    {
+      "q": "Kuri pakopa yra valstybinis socialinis draudimas, administruojamas Sodros?",
+      "options": ["III pakopa", "I pakopa", "II pakopa", "Nė viena"],
+      "correct": 1,
+      "explain": "I pakopa yra valstybinis socialinis draudimas, o II ir III pakopos yra kaupimas fonduose."
+    },
+    {
+      "q": "Kas teisinga apie III pakopos kaupimą?",
+      "options": ["Jis privalomas visiems", "Jis yra savanoriškas", "Jis garantuoja pelną", "Jis veikia tik darbdaviams"],
+      "correct": 1,
+      "explain": "III pakopa yra savanoriška. Kiekvienas pats sprendžia, ar kaupti ir kiek."
+    },
+    {
+      "q": "Kodėl lyginant fondus svarbu žiūrėti į valdymo mokesčius?",
+      "options": ["Nes jie niekada nesikeičia", "Nes mokesčiai kasmet mažina sukauptą sumą", "Nes mokesčiai garantuoja grąžą", "Nes mokestis nesvarbus ilgam laikui"],
+      "correct": 1,
+      "explain": "Net nedidelis metinis mokestis per ilgą laiką sukuria didelį skirtumą."
+    },
+    {
+      "q": "Praėjusių metų fondo grąža buvo labai didelė. Ką tai reiškia?",
+      "options": ["Ateityje bus tokia pati", "Ateityje tikrai bus didesnė", "Tai negarantuoja tokios pat grąžos ateityje", "Fondas yra visiškai be rizikos"],
+      "correct": 2,
+      "explain": "Praeities rezultatai ateities negarantuoja, todėl svarbu suprasti fondo strategiją."
+    },
+    {
+      "q": "Kur patikimiausia patikrinti aktualias pensijų kaupimo taisykles?",
+      "options": ["Socialinio tinklo reklamoje", "Pažįstamo žinutėje", "Sodros ir VMI svetainėse", "Atsitiktiniame forume"],
+      "correct": 2,
+      "explain": "Taisyklės kinta, todėl visada tikrink oficialiuose šaltiniuose, pavyzdžiui, sodra.lt ir vmi.lt."
+    }
+  ]
+}

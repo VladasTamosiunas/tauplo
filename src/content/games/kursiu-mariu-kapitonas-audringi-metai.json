@@ -1,0 +1,279 @@
+{
+  "kind": "voyage",
+  "slug": "kursiu-mariu-kapitonas-audringi-metai",
+  "title": "Kuršių marių kapitonas: audringi metai",
+  "summary": "Daug audrų ir keli gedimai. Atvirose mariose galima gerai uždirbti, bet be draudimo ir pagalvės vienas gedimas viską nuplauna.",
+  "minutes": 12,
+  "topic": "taupymas",
+  "intro": "Šie metai audringi. Atvirose mariose, kai oras ramus, uždirbsi daug, bet audros dažnos, o laivas gali sugesti bet kada. Apsisprendi, kada rizikuoti, o kada apsidrausti ir likti pakrantėje.",
+  "start": {
+    "cash": 1300,
+    "tax": 0,
+    "cushion": 0,
+    "debt": 0,
+    "gear": 1
+  },
+  "baseIncome": 1250,
+  "fixedMonthlyCost": 450,
+  "taxRate": 0.2,
+  "taxPenaltyRate": 0.15,
+  "taxDueMonths": [
+    3,
+    6,
+    9,
+    12
+  ],
+  "wantsRate": 0.5,
+  "pocketFloat": 450,
+  "loan": {
+    "amount": 1500,
+    "monthlyInterestRate": 0.04,
+    "termMonths": 6
+  },
+  "gear": {
+    "maxLevel": 3,
+    "upgradeCost": [
+      0,
+      650,
+      900
+    ],
+    "incomeMultiplier": [
+      1,
+      1.25,
+      1.5
+    ]
+  },
+  "cushionTargetMonths": 3,
+  "months": [
+    {
+      "name": "Sausis",
+      "port": "klaipeda",
+      "season": 0.15,
+      "event": "winter-storm",
+      "weather": "storm",
+      "forecast": "storm",
+      "frozen": true
+    },
+    {
+      "name": "Vasaris",
+      "port": "klaipeda",
+      "season": 0.12,
+      "event": "none",
+      "weather": "rough",
+      "forecast": "rough",
+      "frozen": true
+    },
+    {
+      "name": "Kovas",
+      "port": "juodkrante",
+      "season": 0.3,
+      "event": "scam-offer",
+      "weather": "rough",
+      "forecast": "calm"
+    },
+    {
+      "name": "Balandis",
+      "port": "juodkrante",
+      "season": 0.5,
+      "event": "gear-sale",
+      "weather": "calm",
+      "forecast": "calm"
+    },
+    {
+      "name": "Gegužė",
+      "port": "nida",
+      "season": 0.75,
+      "event": "hull-damage",
+      "weather": "storm",
+      "forecast": "calm"
+    },
+    {
+      "name": "Birželis",
+      "port": "nida",
+      "season": 1,
+      "event": "none",
+      "weather": "calm",
+      "forecast": "calm"
+    },
+    {
+      "name": "Liepa",
+      "port": "nida",
+      "season": 1.25,
+      "event": "boom",
+      "weather": "storm",
+      "forecast": "storm"
+    },
+    {
+      "name": "Rugpjūtis",
+      "port": "nida",
+      "season": 1.2,
+      "event": "none",
+      "weather": "calm",
+      "forecast": "calm"
+    },
+    {
+      "name": "Rugsėjis",
+      "port": "juodkrante",
+      "season": 0.8,
+      "event": "scam-offer",
+      "weather": "storm",
+      "forecast": "rough"
+    },
+    {
+      "name": "Spalis",
+      "port": "juodkrante",
+      "season": 0.45,
+      "event": "engine-repair",
+      "weather": "storm",
+      "forecast": "storm"
+    },
+    {
+      "name": "Lapkritis",
+      "port": "klaipeda",
+      "season": 0.25,
+      "event": "none",
+      "weather": "rough",
+      "forecast": "rough"
+    },
+    {
+      "name": "Gruodis",
+      "port": "klaipeda",
+      "season": 0.18,
+      "event": "holiday",
+      "weather": "storm",
+      "forecast": "storm",
+      "frozen": true
+    }
+  ],
+  "ports": [
+    {
+      "slug": "klaipeda",
+      "name": "Klaipėda",
+      "blurb": "Didžiausias uostas. Čia moka pastoviai, bet nedaug."
+    },
+    {
+      "slug": "juodkrante",
+      "name": "Juodkrantė",
+      "blurb": "Vidutinis uostas. Gintaro pirkėjai ir žvejų turgus."
+    },
+    {
+      "slug": "nida",
+      "name": "Nida",
+      "blurb": "Vasarą kyla minios turistų, žiemą uostas tuščias."
+    }
+  ],
+  "events": {
+    "none": {
+      "title": "",
+      "body": ""
+    },
+    "winter-storm": {
+      "title": "Žiemos audra",
+      "body": "Per audrą dalis tinklų sudraskyta. Pasitaisyti reikia {cost}.",
+      "cost": 140
+    },
+    "scam-offer": {
+      "title": "Per gražus pasiūlymas",
+      "body": "Nepažįstamas pirkėjas siūlo sumokėti dvigubai, jei iš anksto persiųsi {cost} už „draudimą“. Persiuntus pinigų nebeliks.",
+      "cost": 360,
+      "scam": true
+    },
+    "gear-sale": {
+      "title": "Įrangos išpardavimas",
+      "body": "Parduotuvė šį mėnesį mažina įrangos kainą penktadaliu. Laivo atnaujinimas pigesnis.",
+      "gearDiscount": 0.8
+    },
+    "boom": {
+      "title": "Turistų antplūdis",
+      "body": "Liepą Nidoje trūksta žuvies. Šį mėnesį uždirbsi penktadaliu daugiau.",
+      "incomeMultiplier": 1.2
+    },
+    "engine-repair": {
+      "title": "Variklio gedimas",
+      "body": "Variklis sugedo prieš žiemą. Remontas kainuoja {cost}.",
+      "cost": 460,
+      "surprise": true
+    },
+    "holiday": {
+      "title": "Kalėdinės išlaidos",
+      "body": "Dovanos ir šventinis stalas kainuoja {cost}.",
+      "cost": 180
+    },
+    "hull-damage": {
+      "title": "Pažeistas korpusas",
+      "body": "Prieš sezoną rado įtrūkimą korpuse. Remontas kainuoja {cost}.",
+      "cost": 420,
+      "surprise": true
+    }
+  },
+  "openWater": {
+    "incomeMultiplier": {
+      "calm": 1.5,
+      "rough": 0.7,
+      "storm": 0.2
+    },
+    "stormRepair": 280
+  },
+  "insurance": {
+    "monthlyPremium": 55,
+    "coverage": 0.8
+  },
+  "savingsRate": 0.004,
+  "deposit": {
+    "termMonths": 4,
+    "monthlyRate": 0.011
+  },
+  "markets": {
+    "travelCost": 45,
+    "prices": [
+      {
+        "juodkrante": 0.95,
+        "nida": 0.88
+      },
+      {
+        "juodkrante": 0.92,
+        "nida": 0.88
+      },
+      {
+        "klaipeda": 0.95,
+        "nida": 0.95
+      },
+      {
+        "klaipeda": 1.16,
+        "nida": 0.95
+      },
+      {
+        "klaipeda": 1.18,
+        "juodkrante": 0.95
+      },
+      {
+        "klaipeda": 0.95,
+        "juodkrante": 1.14
+      },
+      {
+        "klaipeda": 0.92,
+        "juodkrante": 1.2
+      },
+      {
+        "klaipeda": 0.92,
+        "juodkrante": 1.22
+      },
+      {
+        "klaipeda": 0.95,
+        "nida": 1.16
+      },
+      {
+        "klaipeda": 0.95,
+        "nida": 1.14
+      },
+      {
+        "juodkrante": 0.95,
+        "nida": 0.95
+      },
+      {
+        "juodkrante": 1.16,
+        "nida": 0.88
+      }
+    ]
+  }
+}

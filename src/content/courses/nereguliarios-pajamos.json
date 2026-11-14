@@ -1,0 +1,94 @@
+{
+  "slug": "nereguliarios-pajamos",
+  "title": "Nereguliarios pajamos ir pinigų srautas",
+  "audience": "verslas",
+  "level": "pazenge",
+  "topic": "taupymas",
+  "xp": 160,
+  "certificate": false,
+  "passPct": 60,
+  "summary": "Išmok planuoti biudžetą, kai kiekvieną mėnesį uždirbi skirtingai: atsargos, mokesčių sąskaita ir atlyginimas pačiam sau.",
+  "lessons": [
+    {
+      "slug": "kodel-pajamos-sokinejia",
+      "title": "Kodėl pajamos šokinėja",
+      "minutes": 5,
+      "body": [
+        "Dirbant pagal projektus pajamos nėra tolygios: vieną mėnesį gali gauti tris apmokėjimus, kitą nė vieno. Vidurkis gali atrodyti geras, bet sąskaitos ateina kiekvieną mėnesį.",
+        "Pirmas žingsnis yra pamatyti realų vaizdą. Surašyk paskutinių dvylikos mėnesių pajamas ir išlaidas ir rasi savo vidurkį bei prasčiausią mėnesį.",
+        "Planuok pagal prastesnį, o ne geriausią mėnesį. Taip nepasijusi sutrikdytas, kai pajamų pritrūks."
+      ],
+      "takeaway": "Planuok pagal prastesnį mėnesį, o ne pagal geriausią."
+    },
+    {
+      "slug": "mokesciu-saskaita",
+      "title": "Mokesčių sąskaita",
+      "minutes": 6,
+      "body": [
+        "Kai gauni apmokėjimą, pirmiausia atidėk mokesčiams skirtą dalį į atskirą sąskaitą ir jos nelieskite. Šiuos pinigus laikyk skolinga valstybei, o ne savo pinigais.",
+        "Dalį galima apskaičiuoti pagal ankstesnių metų mokesčių ir pajamų santykį. Jei pernai mokesčiai sudarė maždaug penktadalį pajamų, atidėk bent tiek pat.",
+        "Taip mokesčių terminas virsta įprastu pavedimu, o ne finansine krize."
+      ],
+      "takeaway": "Mokesčiams skirti pinigai niekada nepriklauso kasdienėms išlaidoms."
+    },
+    {
+      "slug": "dvieju-menesiu-atsargos",
+      "title": "Dviejų mėnesių atsargos",
+      "minutes": 5,
+      "body": [
+        "Nereguliarias pajamas turintiems pagalvė svarbesnė nei turintiems pastovią algą. Sukaupk bent dviejų mėnesių būtinųjų išlaidų sumą, o geriausia trijų ar šešių.",
+        "Šios atsargos išlygina mėnesius, kai užsakymų mažai. Jos taip pat suteikia laisvę atsisakyti netinkamo klientų ar pigaus darbo.",
+        "Kaupimo planą gali susidaryti Tauplo skaičiuoklėje."
+      ],
+      "takeaway": "Atsargos leidžia ramiai laukti kito užsakymo."
+    },
+    {
+      "slug": "kainos-nustatymas",
+      "title": "Kainos nustatymas",
+      "minutes": 6,
+      "body": [
+        "Valandos kaina turi padengti ne tik tavo atlyginimą, bet ir mokesčius, nedirbamas dienas, atostogas, įrangą ir laiką, praleistą ieškant klientų.",
+        "Pavyzdys: jei per mėnesį dirbi 100 apmokamų valandų, o reikia uždirbti 2 400 €, tavo kaina turi būti ne mažesnė nei 24 € už valandą, prieš mokesčius ir išlaidas.",
+        "Todėl savarankiškai dirbančio valandos kaina turi būti didesnė nei samdomo darbuotojo."
+      ],
+      "takeaway": "Valandos kaina turi padengti ir nedirbamą laiką, ir mokesčius."
+    },
+    {
+      "slug": "pensijos-kaupimas",
+      "title": "Pensijos kaupimas savarankiškai",
+      "minutes": 6,
+      "body": [
+        "Dirbdamas savarankiškai nesi apsuptas darbdavio, kuris primintų apie ateitį, todėl pensijos klausimą turi spręsti pats.",
+        "Nuolatinės socialinio draudimo įmokos duoda teisę į valstybinę pensiją, tačiau papildomas kaupimas padeda išlaikyti gyvenimo lygį.",
+        "Pradėk nuo nedidelės sumos, kurią gali atidėti ir mažiau uždirbtą mėnesį, ir didink ją, kai pajamos auga."
+      ],
+      "takeaway": "Nedidelis, bet reguliarus kaupimas geresnis už didelį ir pamirštą."
+    }
+  ],
+  "quiz": [
+    {
+      "q": "Pagal ką geriausia planuoti išlaidas, kai pajamos nereguliarios?",
+      "options": ["Pagal geriausią mėnesį", "Pagal prastesnį mėnesį", "Pagal tai, ką norėtum uždirbti", "Išlaidų visai neplanuoti"],
+      "correct": 1,
+      "explain": "Planuojant pagal prastesnį mėnesį pinigų užtenka ir tada, kai užsakymų mažiau."
+    },
+    {
+      "q": "Kam skirti pinigai mokesčių sąskaitoje?",
+      "options": ["Kasdienėms išlaidoms", "Atostogoms", "Tik mokesčiams", "Nauja įranga"],
+      "correct": 2,
+      "explain": "Šie pinigai priklauso mokesčiams, todėl jų neliesk."
+    },
+    {
+      "q": "Nori uždirbti 2 400 € per mėnesį ir dirbi 100 apmokamų valandų. Kokia minimali valandos kaina?",
+      "options": ["20 €", "24 €", "30 €", "12 €"],
+      "correct": 1,
+      "explain": "2 400 € padalinta iš 100 valandų yra 24 € už valandą, dar prieš mokesčius ir kitas išlaidas."
+    },
+    {
+      "q": "Kodėl savarankiškai dirbančiam svarbi didesnė atsargų pagalvė?",
+      "options": ["Nes pajamos būna nereguliarios", "Nes mokesčių nėra", "Nes pagalvė duoda palūkanų", "Nes tai privaloma"],
+      "correct": 0,
+      "explain": "Kai pajamos šokinėja, atsargos išlygina prastesnius mėnesius."
+    }
+  ]
+}

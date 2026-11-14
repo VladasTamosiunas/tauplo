@@ -1,0 +1,17 @@
+node_modules
+.next
+.git
+.pgdata
+.env
+.env.*
+!.env.production.example
+*.tsbuildinfo
+Dockerfile.memtest
+npm-debug.log
+tools
+design
+docs
+*.md
+!README.md
+coverage
+.DS_Store

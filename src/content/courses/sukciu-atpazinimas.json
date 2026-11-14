@@ -1,0 +1,94 @@
+{
+  "slug": "sukciu-atpazinimas",
+  "title": "Sukčių medžioklė: SMS ir el. laiškai",
+  "audience": "mokiniai",
+  "level": "pradedantieji",
+  "topic": "sukciai",
+  "xp": 140,
+  "certificate": false,
+  "passPct": 60,
+  "summary": "Išmok atpažinti dažniausius sukčių triukus žinutėse, laiškuose ir skelbimuose, ir žinok, ką daryti, jei jau paspaudei.",
+  "lessons": [
+    {
+      "slug": "skubos-ir-baimes-triukai",
+      "title": "Skubos ir baimės triukai",
+      "minutes": 5,
+      "body": [
+        "Sukčiai nori, kad nespėtum pagalvoti. Todėl jie spaudžia terminu („per 24 valandas“), grasina („sąskaita bus užblokuota“) arba viliojasi prizu („laimėjote“).",
+        "Kai jauti, kad reikia skubėti, tai ženklas sustoti. Tikros įstaigos duoda laiko, o svarbius dalykus praneša keliais kanalais.",
+        "Paprasta taisyklė: jei žinutė verčia skubėti ir kažką paspausti, pirma patikrink ją kitu būdu."
+      ],
+      "takeaway": "Skubėjimas yra sukčių sąjungininkas. Sustok ir pagalvok."
+    },
+    {
+      "slug": "netikros-sms",
+      "title": "Netikros SMS žinutės",
+      "minutes": 6,
+      "body": [
+        "Dažniausios netikros žinutės apsimeta siuntų bendrovėmis, bankais ar artimaisiais. Jose būna nuoroda arba prašymas pervesti pinigus.",
+        "Požymiai: nepažįstamas siuntėjas, keistas nuorodos adresas (pavyzdžiui, baigiasi .top ar .xyz), gramatikos klaidos, neįprasta mažos sumos rinkliava.",
+        "Jei žinutė tariamai nuo mamos iš naujo numerio, paskambink senuoju numeriu, kol nieko nepervedei."
+      ],
+      "takeaway": "Nespausk nuorodų iš netikėtų žinučių, o artimąjį patikrink skambučiu."
+    },
+    {
+      "slug": "netikri-banko-ir-vmi-laiskai",
+      "title": "Netikri banko ir VMI laiškai",
+      "minutes": 6,
+      "body": [
+        "Netikri laiškai atrodo kaip tikri: su logotipu, tvarkingu tekstu ir oficialiu tonu. Bet laiško siuntėjo adresas dažnai kitoks nei įstaigos.",
+        "Bankas ar valstybinė institucija niekada neprašo slaptažodžio, SMS kodo ar kortelės duomenų laišku. Jei kas nors jų prašo, tai sukčiai.",
+        "Saugiausias būdas patikrinti: uždaryk laišką ir prisijunk prie banko ar e-VMI pats, įvesdamas adresą rankomis."
+      ],
+      "takeaway": "Niekada neįvesk slaptažodžio ar SMS kodo, kai ateini iš laiško nuorodos."
+    },
+    {
+      "slug": "per-geri-pasiulymai",
+      "title": "Investicijos su „garantuotu pelnu“",
+      "minutes": 6,
+      "body": [
+        "Socialiniuose tinkluose pasirodo reklamos, žadančios didelį ir greitą uždarbį. Dažnai jose naudojami žinomų žmonių veidai, kurie apie tai nieko nežino.",
+        "Tikros investicijos visada turi riziką. Jei kas nors garantuoja didelę grąžą, tai beveik tikrai sukčiavimas. Vienas gerai žinomas ženklas yra spaudimas įnešti pinigus šiandien.",
+        "Prieš dėdamas pinigus patikrink, ar bendrovė turi licenciją, pavyzdžiui, Lietuvos banko sąraše."
+      ],
+      "takeaway": "Garantuotas didelis pelnas reiškia, kad tai tikriausiai apgaulė."
+    },
+    {
+      "slug": "ka-daryti-paspaudus",
+      "title": "Ką daryti, jei jau paspaudei",
+      "minutes": 5,
+      "body": [
+        "Klysta visi, todėl svarbu žinoti, kaip elgtis. Nesigėdyk ir nedelsk, nes kiekviena minutė svarbi.",
+        "Jei įvedei banko duomenis, nedelsdamas paskambink bankui ir užblokuok kortelę ar prieigą. Pakeisk slaptažodžius, kurie galėjo nutekėti.",
+        "Apie sukčiavimą pranešk policijai. Taip padedi ir sau, ir kitiems."
+      ],
+      "takeaway": "Greitai paskambink bankui ir pranešk policijai, nes tai gali sustabdyti nuostolį."
+    }
+  ],
+  "quiz": [
+    {
+      "q": "Gauni SMS, kad siunta sulaikyta ir reikia sumokėti 1,99 € per 24 valandas. Ką daryti?",
+      "options": ["Greitai sumokėti, nes suma maža", "Atsakyti žinute, kad tai klaida", "Ištrinti žinutę ir nespausti nuorodos", "Persiųsti žinutę draugams"],
+      "correct": 2,
+      "explain": "Maža suma ir skubos terminas yra klasikinis triukas. Nuorodos nespausk, o siuntą pasitikrink oficialioje programėlėje."
+    },
+    {
+      "q": "Kuris požymis rodo, kad laiškas gali būti netikras?",
+      "options": ["Jis prašo banko slaptažodžio ar SMS kodo", "Jis išsiųstas darbo dienomis", "Jame yra logotipas", "Jis parašytas lietuviškai"],
+      "correct": 0,
+      "explain": "Bankai niekada neprašo slaptažodžio ar SMS kodo laišku, o logotipą nesunku nukopijuoti."
+    },
+    {
+      "q": "Reklama žada garantuotą 40 % grąžą per mėnesį. Koks tinkamiausias vertinimas?",
+      "options": ["Gera proga, reikia skubėti", "Greičiausiai sukčiavimas, nes grąžos niekas negali garantuoti", "Tikrai saugu, jei reklamoje yra žinomas žmogus", "Verta įnešti nedidelę sumą pabandyti"],
+      "correct": 1,
+      "explain": "Garantuota didelė grąža yra pagrindinis investicinio sukčiavimo ženklas."
+    },
+    {
+      "q": "Supratai, kad ką tik įvedei banko duomenis netikroje svetainėje. Ką daryti pirmiausia?",
+      "options": ["Palaukti, gal nieko neįvyks", "Paskambinti bankui ir užblokuoti prieigą", "Ištrinti naršyklės istoriją", "Papasakoti draugams vėliau"],
+      "correct": 1,
+      "explain": "Kuo greičiau pranešus bankui, tuo didesnė tikimybė sustabdyti pinigų išvedimą."
+    }
+  ]
+}

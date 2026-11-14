@@ -1,0 +1,83 @@
+{
+  "slug": "biudzetas-50-30-20",
+  "title": "50/30/20 taisyklė ir pirmas biudžetas",
+  "audience": "mokiniai",
+  "level": "pradedantieji",
+  "topic": "biudzetas",
+  "xp": 120,
+  "certificate": false,
+  "passPct": 60,
+  "summary": "Išmok paprastu būdu suskirstyti pinigus į poreikius, norus ir taupymą ir sudaryk savo pirmąjį mėnesio biudžetą.",
+  "lessons": [
+    {
+      "slug": "kur-dingsta-pinigai",
+      "title": "Iš kur ateina pinigai ir kur jie dingsta",
+      "minutes": 5,
+      "body": [
+        "Pajamos yra visi pinigai, kuriuos gauni: kišenpinigiai, stipendija, alga ar uždarbis iš papildomo darbo. Išlaidos yra viskas, ką iš jų išleidi.",
+        "Dažniausiai pinigai dingsta ne dėl vieno didelio pirkinio, o dėl daugybės mažų: kava pakeliui, programėlės, greitas maistas. Kol jų nesuskaičiuoji, jos atrodo menkos.",
+        "Biudžetas yra planas, kuriame iš anksto nusprendi, kam skirsi kiekvieną eurą. Taip pinigai tarnauja tau, o ne atvirkščiai."
+      ],
+      "takeaway": "Biudžetas yra ne draudimas išleisti pinigus, o sprendimas, kur jie keliaus."
+    },
+    {
+      "slug": "taisykle-praktiskai",
+      "title": "50/30/20 taisyklė praktiškai",
+      "minutes": 6,
+      "body": [
+        "Viena paprasčiausių biudžeto taisyklių pajamas dalija į tris dalis: 50 % poreikiams, 30 % norams ir 20 % taupymui ar skoloms grąžinti.",
+        "Pavyzdys: jei per mėnesį gauni 800 €, poreikiams skirsi 400 €, norams 240 €, o taupymui 160 €.",
+        "Taisyklė yra pradžios taškas, ne įstatymas. Jei gyveni brangiame mieste, poreikių dalis gali būti didesnė. Svarbiausia, kad taupymas neliktų paskutinis ir nepriklausytų nuo to, kas atlieka."
+      ],
+      "takeaway": "Pirmiausia atidėk taupymui, o tik tada leisk norams."
+    },
+    {
+      "slug": "poreikiai-ir-norai",
+      "title": "Poreikiai ir norai",
+      "minutes": 5,
+      "body": [
+        "Poreikis yra tai, be ko sunku gyventi ar mokytis: būstas, maistas, kelionė į mokyklą ar darbą, būtinieji drabužiai.",
+        "Noras yra tai, kas gyvenimą daro malonesnį, bet be ko galima apsieiti: naujausias telefonas, kavinės, papildomos prenumeratos.",
+        "Kartais ribą sunku nubrėžti. Maistas yra poreikis, bet pietūs restorane jau gali būti noras. Paklausk savęs: ar galėčiau gauti tą patį pigiau?"
+      ],
+      "takeaway": "Norai nėra blogi, bet jiems skiri tik tiek, kiek lieka suplanavus poreikius ir taupymą."
+    },
+    {
+      "slug": "pirmas-menesio-biudzetas",
+      "title": "Pirmasis mėnesio biudžetas",
+      "minutes": 7,
+      "body": [
+        "Sudaryk biudžetą trimis žingsniais. Pirma, surašyk visas mėnesio pajamas. Antra, surašyk nuolatines išlaidas, pavyzdžiui, kelionės kortelę ar telefono planą. Trečia, išdalyk likusią sumą pagal taisyklę.",
+        "Mėnesio gale palygink planą su tikrove. Kur išleidai daugiau, nei planavai? Nekaltink savęs, tiesiog pakoreguok kitą mėnesį.",
+        "Užsirašyk išlaidas iškart, kai jas padarai. Po savaitės pamatysi dėsningumus, kurių anksčiau nepastebėdavai."
+      ],
+      "takeaway": "Biudžetas veikia tik tada, kai jį lygini su tikromis išlaidomis."
+    }
+  ],
+  "quiz": [
+    {
+      "q": "Pagal 50/30/20 taisyklę, kokią pajamų dalį verta skirti taupymui?",
+      "options": ["10 %", "20 %", "30 %", "50 %"],
+      "correct": 1,
+      "explain": "Taisyklė taupymui ar skoloms grąžinti skiria 20 % pajamų."
+    },
+    {
+      "q": "Per mėnesį gauni 800 €. Kiek pagal taisyklę skirti poreikiams?",
+      "options": ["160 €", "240 €", "400 €", "560 €"],
+      "correct": 2,
+      "explain": "Poreikiams tenka 50 %, tai yra 400 € iš 800 €."
+    },
+    {
+      "q": "Kuris iš šių pavyzdžių labiausiai yra noras, o ne poreikis?",
+      "options": ["Kelionės bilietas į mokyklą", "Maistas namuose", "Prenumerata, kuria nesinaudoji", "Būsto nuoma"],
+      "correct": 2,
+      "explain": "Prenumeratos, kuriomis nesinaudoji, yra pinigai be naudos. Verta jas atsisakyti."
+    },
+    {
+      "q": "Kada geriausia užsirašyti išlaidas?",
+      "options": ["Kai pritrūksta pinigų", "Kartą per metus", "Niekada, tai nuobodu", "Iškart, kai jas padarai"],
+      "correct": 3,
+      "explain": "Kuo greičiau užsirašai, tuo mažiau pamirštama. Po savaitės pamatysi savo išlaidų dėsningumus."
+    }
+  ]
+}

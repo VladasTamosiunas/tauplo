@@ -1,0 +1,131 @@
+{
+  "kind": "scenario",
+  "slug": "mokesciu-labirintas",
+  "title": "Mokesčių labirintas",
+  "summary": "Pradedi dirbti savarankiškai. Išmok, kaip individualioje veikloje veikia VSD, PSD ir GPM, ir apskaičiuok juos pats.",
+  "minutes": 8,
+  "topic": "mokesciai",
+  "intro": "Tampi laisvai samdomu specialistu. Penkiuose kambariuose spręsi, kaip dirbti legaliai, apskaičiuosi įmokas ir išmoksi atidėti pinigus mokesčiams. Skaičiavimai paremti mokomuoju modeliu, ne galiojančiais įstatymais.",
+  "hud": { "eur": "Pinigai kišenėje", "stress": "Streso lygis", "iq": "Finansinis IQ" },
+  "eurMax": 3000,
+  "start": { "eur": 600, "stress": 35, "iq": 40 },
+  "steps": [
+    {
+      "id": "first-client",
+      "type": "choice",
+      "kind": "text",
+      "title": "Pirmasis užsakymas",
+      "body": "Užsienio klientas siūlo 2 400 € už maketavimo darbus. Dirbi pats, o oficialiai dar nesi užsiregistravęs.",
+      "choices": [
+        {
+          "label": "Paprašyti kliento sumokėti grynaisiais be sąskaitos",
+          "tone": "bad",
+          "note": "Pajamų slėpimas yra pažeidimas, o be sąskaitos neturi kaip įrodyti uždarbio, pavyzdžiui, imdamas būsto paskolą.",
+          "effects": { "eur": 0, "stress": 15, "iq": -10 }
+        },
+        {
+          "label": "Užsiregistruoti individualią veiklą ir išrašyti sąskaitą",
+          "tone": "good",
+          "note": "Dirbi legaliai, o kliento sąskaita apmokama be problemų. Nuo šiol žinai, kad pajamos turi būti deklaruojamos.",
+          "effects": { "eur": 400, "stress": -3, "iq": 10 }
+        },
+        {
+          "label": "Pasiklausti pažįstamo freelancerio ir daryti taip pat",
+          "tone": "mid",
+          "note": "Gera pradžia, bet jo atvejis gali skirtis nuo tavo. Informaciją patikrink VMI ir Sodros svetainėse.",
+          "effects": { "eur": 0, "stress": 5, "iq": 3 }
+        }
+      ]
+    },
+    {
+      "id": "vsd-estimate",
+      "type": "estimate",
+      "title": "Pirmoji įmokų suma: VSD",
+      "body": "Per metus uždirbai 10 000 €. Apskaičiuok, kiek už šiuos metus reikės sumokėti valstybinio socialinio draudimo (VSD) įmokų. Atsakymą įrašyk eurais.",
+      "hint": "Atimk {expensePct} % pajamų kaip išlaidas. VSD skaičiuojamas nuo {contributionBasePct} % likusios sumos, tarifas {vsdPct} %.",
+      "incomeEur": 10000,
+      "quantity": "vsd",
+      "tolerancePct": 2,
+      "correct": {
+        "note": "Teisingai. Atsakymas: {expected}. Šios įmokos kaupia tavo būsimą pensiją ir socialines išmokas.",
+        "effects": { "eur": 0, "stress": -3, "iq": 12 }
+      },
+      "wrong": {
+        "note": "Atsakymas buvo {expected}. Pradėk nuo pajamų, atimk išlaidas, paimk {contributionBasePct} % likusios sumos ir padaugink iš VSD tarifo.",
+        "effects": { "eur": 0, "stress": 8, "iq": -4 }
+      }
+    },
+    {
+      "id": "set-aside",
+      "type": "choice",
+      "kind": "text",
+      "title": "Gauni apmokėjimą",
+      "body": "Į sąskaitą atkeliavo 3 000 €. Supranti, kad dalis šių pinigų nėra tavo: iš jų dar reikės mokėti mokesčius.",
+      "choices": [
+        {
+          "label": "Išleisti, ko reikia, o mokesčius spręsti vėliau",
+          "tone": "bad",
+          "note": "Kai ateis mokėjimo terminas, pinigų gali nebelikti, o skola kaupia delspinigius.",
+          "effects": { "eur": 0, "stress": 18, "iq": -8 }
+        },
+        {
+          "label": "Atidėti tik 5 % mokesčiams",
+          "tone": "mid",
+          "note": "Geriau nei nieko, bet to neužteks. Augant pajamoms, auga ir mokesčių suma.",
+          "effects": { "eur": 0, "stress": 8, "iq": 2 }
+        },
+        {
+          "label": "Iškart atidėti dalį mokesčiams į atskirą sąskaitą",
+          "tone": "good",
+          "note": "Kai ateis terminas, pinigai jau lauks. Tai pagrindinis laisvai samdomo žmogaus įprotis.",
+          "effects": { "eur": 0, "stress": -6, "iq": 12 }
+        }
+      ]
+    },
+    {
+      "id": "total-estimate",
+      "type": "estimate",
+      "title": "Metų pabaiga: kiek iš viso mokesčių?",
+      "body": "Metai baigėsi, pajamos buvo 18 000 €. Apskaičiuok bendrą mokesčių sumą: VSD, PSD ir GPM kartu. Atsakymą įrašyk eurais.",
+      "hint": "Išlaidos sudaro {expensePct} %. VSD ir PSD skaičiuojami nuo {contributionBasePct} % likusios sumos (tarifai {vsdPct} % ir {psdPct} %). GPM, {gpmPct} %, skaičiuojamas nuo pajamų, atėmus išlaidas, VSD ir PSD.",
+      "incomeEur": 18000,
+      "quantity": "total",
+      "tolerancePct": 2,
+      "correct": {
+        "note": "Teisingai. Bendra mokesčių suma: {expected}. Dabar žinai, kiek atidėti iš kiekvienos gautos sumos.",
+        "effects": { "eur": 0, "stress": -4, "iq": 14 }
+      },
+      "wrong": {
+        "note": "Atsakymas buvo {expected}. Pabandyk iš naujo: pirma išlaidos, tada VSD ir PSD, o GPM skaičiuok paskutinį.",
+        "effects": { "eur": 0, "stress": 8, "iq": -4 }
+      }
+    },
+    {
+      "id": "declare",
+      "type": "choice",
+      "kind": "text",
+      "title": "Deklaravimo terminas",
+      "body": "Artėja pajamų deklaravimo terminas. Dar nieko nepradėjai.",
+      "choices": [
+        {
+          "label": "Palikti paskutinei dienai",
+          "tone": "mid",
+          "note": "Šį kartą pavyko, bet tokia įtampa kartojasi kasmet. Geriau pradėti iš anksto.",
+          "effects": { "eur": 0, "stress": 10, "iq": -2 }
+        },
+        {
+          "label": "Pasižymėti kalendoriuje ir pateikti e-VMI iš anksto",
+          "tone": "good",
+          "note": "Pateikei laiku ir be skubos. Dabar žinai, kiek liko sumokėti.",
+          "effects": { "eur": 0, "stress": -8, "iq": 12 }
+        },
+        {
+          "label": "Pamiršti terminą",
+          "tone": "bad",
+          "note": "Pavėlavus gali tekti mokėti baudą ir delspinigius. Datą pasižymėk kalendoriuje.",
+          "effects": { "eur": -150, "stress": 20, "iq": -8 }
+        }
+      ]
+    }
+  ]
+}

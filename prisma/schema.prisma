@@ -1,0 +1,159 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+enum Role {
+  STUDENT
+  ADULT
+  TEACHER
+}
+
+enum ClassroomKind {
+  CLASS
+  CAMPAIGN
+}
+
+enum InquiryType {
+  SCHOOL_MUNICIPALITY
+  COBRANDED_MODULE
+  EU_STATE_PROGRAM
+  OTHER
+}
+
+model User {
+  id            String   @id @default(cuid())
+  email         String   @unique
+  passwordHash  String
+  displayName   String
+  role          Role
+  xp            Int      @default(0)
+  financialIq   Int      @default(40)
+  streakCount   Int      @default(0)
+  longestStreak Int      @default(0)
+  lastActiveKey String?
+  createdAt     DateTime @default(now())
+
+  sessions    Session[]
+  owned       Classroom[]        @relation("ClassroomOwner")
+  memberships Membership[]
+  lessons     LessonProgress[]
+  completions CourseCompletion[]
+  gameRuns    GameRun[]
+  badges      BadgeAward[]
+  certs       Certificate[]
+  cushionPlan CushionPlan?
+}
+
+model Session {
+  id        String   @id @default(cuid())
+  tokenHash String   @unique
+  userId    String
+  expiresAt DateTime
+  createdAt DateTime @default(now())
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId])
+}
+
+model Classroom {
+  id          String        @id @default(cuid())
+  name        String
+  kind        ClassroomKind @default(CLASS)
+  joinCode    String        @unique
+  ownerId     String
+  createdAt   DateTime      @default(now())
+  owner       User          @relation("ClassroomOwner", fields: [ownerId], references: [id], onDelete: Cascade)
+  members     Membership[]
+
+  @@index([ownerId])
+}
+
+model Membership {
+  userId      String
+  classroomId String
+  joinedAt    DateTime  @default(now())
+  user        User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  classroom   Classroom @relation(fields: [classroomId], references: [id], onDelete: Cascade)
+
+  @@id([userId, classroomId])
+  @@index([classroomId])
+}
+
+model LessonProgress {
+  userId      String
+  courseSlug  String
+  lessonSlug  String
+  completedAt DateTime @default(now())
+  user        User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@id([userId, courseSlug, lessonSlug])
+}
+
+model CourseCompletion {
+  userId      String
+  courseSlug  String
+  quizPct     Int
+  completedAt DateTime @default(now())
+  user        User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@id([userId, courseSlug])
+}
+
+model GameRun {
+  id        String   @id @default(cuid())
+  userId    String
+  gameSlug  String
+  iq        Int      @default(0)
+  eur       Int      @default(0)
+  stress    Int      @default(0)
+  points    Int      @default(0)
+  pct       Int      @default(0)
+  createdAt DateTime @default(now())
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId, gameSlug])
+}
+
+model BadgeAward {
+  userId    String
+  badgeSlug String
+  awardedAt DateTime @default(now())
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@id([userId, badgeSlug])
+}
+
+model Certificate {
+  id         String   @id
+  userId     String
+  courseSlug String
+  issuedAt   DateTime @default(now())
+  user       User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, courseSlug])
+}
+
+model CushionPlan {
+  userId          String @id
+  monthlyExpenses Int
+  monthlySaving   Int
+  currentSavings  Int    @default(0)
+  months          Int
+  user            User   @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+model Inquiry {
+  id          String      @id @default(cuid())
+  orgName     String
+  projectType InquiryType
+  contactName String
+  email       String
+  message     String?
+  consent     Boolean
+  createdAt   DateTime    @default(now())
+}

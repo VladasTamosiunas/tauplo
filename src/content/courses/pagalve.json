@@ -1,0 +1,83 @@
+{
+  "slug": "pagalve",
+  "title": "Pagalvė nenumatytoms išlaidoms",
+  "audience": "suaugusieji",
+  "level": "pradedantieji",
+  "topic": "taupymas",
+  "xp": 100,
+  "certificate": false,
+  "passPct": 60,
+  "summary": "Sužinok, kodėl reikalingos atsargos, kiek mėnesių išlaidų jose turėtų būti ir kaip jas susikaupti.",
+  "lessons": [
+    {
+      "slug": "kodel-reikia-atsargu",
+      "title": "Kodėl reikia atsargų",
+      "minutes": 5,
+      "body": [
+        "Gyvenime pasitaiko netikėtumų: sugenda automobilis, sugenda buitinė technika, netenki darbo ar susergi. Be atsargų tokie įvykiai priverčia skolintis.",
+        "Atsargų pagalvė yra pinigai, kuriuos laikai tik tokiems atvejams. Ji nėra investicija ir neturi augti, jos paskirtis yra apsauga.",
+        "Kai pagalvė yra, sprendimus priimi ramiau. Nereikia imti greitųjų kreditų ir sutikti su pirmu pasitaikiusiu darbu."
+      ],
+      "takeaway": "Pagalvė apsaugo nuo skolų, kai nutinka netikėtas dalykas."
+    },
+    {
+      "slug": "kiek-menesiu",
+      "title": "Kiek mėnesių išlaidų pakanka",
+      "minutes": 6,
+      "body": [
+        "Dažnai rekomenduojama sukaupti nuo trijų iki šešių mėnesių būtinųjų išlaidų sumą. Pradėk nuo trijų, o šešių siek, jei dirbi savarankiškai ar tavo pajamos nepastovios.",
+        "Skaičiuok iš išlaidų, ne iš pajamų. Jei būtinosios išlaidos yra 900 € per mėnesį, trijų mėnesių pagalvė yra 2 700 €.",
+        "Jei kas mėnesį atidedi 300 €, tokią pagalvę sukaupsi per devynis mėnesius."
+      ],
+      "takeaway": "Pagalvės dydis lygus kelių mėnesių būtinųjų išlaidų sumai."
+    },
+    {
+      "slug": "kur-laikyti",
+      "title": "Kur laikyti pagalvę",
+      "minutes": 5,
+      "body": [
+        "Pagalvei svarbiausia, kad pinigus galėtum paimti greitai ir kad jų vertė nesvyruotų. Todėl ji tinka laikyti atskiroje taupomojoje sąskaitoje.",
+        "Akcijos ar fondai čia netinka, nes jų vertė gali sumažėti kaip tik tada, kai pinigų prireiks.",
+        "Atskira sąskaita turi ir psichologinį privalumą: pinigai nesimaišo su kasdienėmis išlaidomis, todėl juos sunkiau išleisti iš įpročio."
+      ],
+      "takeaway": "Laikyk pagalvę lengvai pasiekiamoje, bet atskiroje sąskaitoje."
+    },
+    {
+      "slug": "planas-susikaupti",
+      "title": "Planas, kaip ją susikaupti",
+      "minutes": 6,
+      "body": [
+        "Nustatyk tikslą eurais, pavyzdžiui, 2 700 €. Tada pasirink mėnesinę sumą, kurią gali atidėti nejausdamas didelio spaudimo.",
+        "Nustatyk automatinį pavedimą diena po algos. Taip taupymas vyksta be valios pastangų.",
+        "Panaudojęs pagalvę, kuo greičiau ją papildyk. Tai ir yra jos paskirtis."
+      ],
+      "takeaway": "Automatinis pavedimas po algos yra patikimiausias būdas taupyti."
+    }
+  ],
+  "quiz": [
+    {
+      "q": "Būtinosios išlaidos yra 900 € per mėnesį. Kokia yra trijų mėnesių pagalvė?",
+      "options": ["900 €", "1 800 €", "2 700 €", "3 600 €"],
+      "correct": 2,
+      "explain": "3 mėnesiai po 900 € sudaro 2 700 €."
+    },
+    {
+      "q": "Kur geriausia laikyti pagalvę nenumatytoms išlaidoms?",
+      "options": ["Akcijose", "Atskiroje lengvai pasiekiamoje sąskaitoje", "Kriptovaliutoje", "Neribotam laikui įšaldytame indėlyje"],
+      "correct": 1,
+      "explain": "Pagalvei svarbus greitas pasiekiamumas ir tai, kad vertė nekristų."
+    },
+    {
+      "q": "Kas mėnesį atidedi 300 €, o tikslas yra 2 700 €. Per kiek mėnesių pasieksi tikslą?",
+      "options": ["Per 9 mėnesius", "Per 6 mėnesius", "Per 12 mėnesių", "Per 3 mėnesius"],
+      "correct": 0,
+      "explain": "2 700 € padalinta iš 300 € yra 9 mėnesiai."
+    },
+    {
+      "q": "Kuris būdas patikimiausias reguliariai taupyti?",
+      "options": ["Atidėti, kas lieka mėnesio gale", "Taupyti tik gavus premiją", "Automatinis pavedimas po algos", "Pirkti daugiau, kad išnaudotum nuolaidas"],
+      "correct": 2,
+      "explain": "Kas lieka mėnesio gale, dažniausiai būna nulis. Automatinis pavedimas taupo pirmiausia."
+    }
+  ]
+}

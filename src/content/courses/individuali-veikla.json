@@ -1,0 +1,122 @@
+{
+  "slug": "individuali-veikla",
+  "title": "Individuali veikla: PSD, VSD ir GPM",
+  "audience": "verslas",
+  "level": "pazenge",
+  "topic": "mokesciai",
+  "xp": 240,
+  "certificate": true,
+  "passPct": 70,
+  "summary": "Sužinok, kaip dirbant savarankiškai skaičiuojami ir mokami VSD, PSD ir GPM, ir kiek pinigų reikia atidėti.",
+  "lessons": [
+    {
+      "slug": "kas-yra-individuali-veikla",
+      "title": "Individuali veikla ir verslo liudijimas",
+      "minutes": 6,
+      "body": [
+        "Dirbdamas savarankiškai gali veikti pagal verslo liudijimą arba vykdyti individualią veiklą. Abiem atvejais pats atsakai už pajamų apskaitą ir mokesčius.",
+        "Kuris būdas tinka, priklauso nuo veiklos rūšies, pajamų dydžio ir klientų. Sąlygos ir pajamų ribos keičiasi, todėl prieš pasirinkdamas jas patikrink vmi.lt.",
+        "Šio kurso skaičiavimai yra supaprastintas mokomasis modelis, kuris padeda suprasti principus. Jis nepakeičia konsultacijos su buhalteriu."
+      ],
+      "takeaway": "Dirbdamas savarankiškai pats atsakai už pajamas ir mokesčius."
+    },
+    {
+      "slug": "pajamos-ir-islaidos",
+      "title": "Pajamos ir leidžiamos išlaidos",
+      "minutes": 7,
+      "body": [
+        "Pajamos yra visa gauta suma. Išlaidos, kurias galima atimti, sumažina sumą, nuo kurios skaičiuojami mokesčiai.",
+        "Šiame modelyje daroma prielaida, kad išlaidos sudaro {expensePct} % pajamų. Tikrovėje taisyklės priklauso nuo veiklos rūšies ir ar turi išlaidas patvirtinančių dokumentų.",
+        "Pavyzdys: jei per metus uždirbai 10 000 €, modelyje išlaidos yra 3 000 €, o pajamos mokesčiams skaičiuoti yra 7 000 €."
+      ],
+      "takeaway": "Mokesčiai skaičiuojami ne nuo visų pajamų, o nuo likusios po išlaidų sumos."
+    },
+    {
+      "slug": "gpm-pagrindai",
+      "title": "GPM pagrindai",
+      "minutes": 6,
+      "body": [
+        "Gyventojų pajamų mokestis (GPM) yra mokestis nuo gautų pajamų. Šiame modelyje taikomas {gpmPct} % tarifas.",
+        "GPM bazė yra pajamos, atėmus išlaidas ir sumokėtas VSD bei PSD įmokas. Todėl sumokėtos įmokos sumažina GPM.",
+        "Dabartinius tarifus ir lengvatas visada pasitikrink vmi.lt, nes jie gali keistis."
+      ],
+      "takeaway": "GPM skaičiuojamas paskutinis, nes prieš tai atimamos išlaidos ir įmokos."
+    },
+    {
+      "slug": "vsd-ir-psd",
+      "title": "VSD ir PSD įmokos",
+      "minutes": 7,
+      "body": [
+        "VSD yra valstybinis socialinis draudimas, kuris kaupia teisę į pensiją ir išmokas. PSD yra privalomasis sveikatos draudimas, suteikiantis teisę į gydymą.",
+        "Modelyje abi įmokos skaičiuojamos nuo {contributionBasePct} % pajamų po išlaidų. VSD tarifas yra {vsdPct} %, o PSD {psdPct} %.",
+        "Pavyzdys: 7 000 € bazės {contributionBasePct} % yra 6 300 €. Iš jų VSD yra apie 789 €, o PSD apie 440 €."
+      ],
+      "takeaway": "VSD ir PSD kaupia teises į pensiją ir sveikatos priežiūrą, todėl jų negalima praleisti."
+    },
+    {
+      "slug": "saskaitu-israsymas",
+      "title": "Sąskaitų išrašymas",
+      "minutes": 5,
+      "body": [
+        "Už kiekvieną darbą klientui išrašyk sąskaitą. Joje nurodyk savo duomenis, kliento duomenis, paslaugos aprašą, sumą ir datą.",
+        "Sąskaita yra įrodymas, kad uždirbai pajamas legaliai. Jos reikės deklaruojant ir gaunant paskolą.",
+        "Sąskaitas kaupk tvarkingai ir jas saugok tiek laiko, kiek reikalauja įstatymai."
+      ],
+      "takeaway": "Be sąskaitos pajamas sunku įrodyti ir deklaruoti."
+    },
+    {
+      "slug": "deklaravimas",
+      "title": "Deklaravimas e-VMI",
+      "minutes": 6,
+      "body": [
+        "Pajamas deklaruoji elektroninėje VMI sistemoje (e-VMI). Prisijungus rasi savo duomenis ir pateikimo terminus.",
+        "Deklaraciją pradėk iš anksto. Paskutinę dieną sistemos būna apkrautos, o klaidos kainuoja brangiai.",
+        "Jei kyla abejonių, kreipkis į VMI konsultantus ar buhalterį. Tai pigiau nei bauda."
+      ],
+      "takeaway": "Deklaravimą pradėk iš anksto, o ne paskutinę dieną."
+    },
+    {
+      "slug": "atidejimas-mokesciams",
+      "title": "Dalies pajamų atidėjimas mokesčiams",
+      "minutes": 6,
+      "body": [
+        "Kai gauni apmokėjimą, ne visi pinigai yra tavo: dalis priklauso mokesčiams. Pirmiausia nustatyk, kiek apytiksliai sudaro VSD, PSD ir GPM.",
+        "Paprastas įprotis: kiekvieną kartą gavęs mokėjimą atidėk tam tikrą procentą į atskirą sąskaitą. Pagal šio mokomojo modelio pavyzdį tai gali būti maždaug penktadalis ar daugiau, bet tikslią dalį apskaičiuok pagal savo situaciją.",
+        "Kai ateina terminas, pinigai jau laukia, o tu nesijauti sutrikdytas."
+      ],
+      "takeaway": "Atidėk dalį kiekvieno mokėjimo, kad mokesčių terminas nebūtų netikėtumas."
+    }
+  ],
+  "quiz": [
+    {
+      "q": "Kuris mokestis šiame modelyje skaičiuojamas paskutinis?",
+      "options": ["VSD", "PSD", "GPM", "Išlaidų atėmimas"],
+      "correct": 2,
+      "explain": "GPM bazei pirma atimamos išlaidos, VSD ir PSD, todėl GPM skaičiuojamas paskutinis."
+    },
+    {
+      "q": "Ką kaupia VSD įmokos?",
+      "options": ["Sveikatos draudimą", "Teisę į pensiją ir socialines išmokas", "Gyventojų pajamų mokestį", "Verslo liudijimą"],
+      "correct": 1,
+      "explain": "VSD yra valstybinis socialinis draudimas, o PSD yra sveikatos draudimas."
+    },
+    {
+      "q": "Kodėl svarbu išrašyti sąskaitą už kiekvieną atliktą darbą?",
+      "options": ["Nes tai gražu", "Nes sąskaita yra pajamų įrodymas ir reikalinga deklaruojant", "Nes tada galima nemokėti mokesčių", "Nes tai prašo tik bankai"],
+      "correct": 1,
+      "explain": "Sąskaita įrodo pajamas ir padeda jas deklaruoti, gauti paskolą ar apsiginti nesutarimo atveju."
+    },
+    {
+      "q": "Kada geriausia pradėti pildyti pajamų deklaraciją?",
+      "options": ["Paskutinę terminą dieną", "Praėjus terminui", "Iš anksto, kol nėra skubos", "Tik gavus priminimą iš VMI"],
+      "correct": 2,
+      "explain": "Iš anksto spėsi pasitikrinti duomenis ir ištaisyti klaidas be streso."
+    },
+    {
+      "q": "Kam tinka kurso skaičiavimai?",
+      "options": ["Jie yra galiojančios teisės aktų redakcijos kopija", "Jie yra mokomasis modelis, o aktualias taisykles reikia patikrinti vmi.lt", "Jie pakeičia buhalterio konsultaciją", "Jie tinka bet kuriai pajamų rūšiai"],
+      "correct": 1,
+      "explain": "Modelis padeda suprasti principus, bet tikslias taisykles visada tikrink oficialiuose šaltiniuose."
+    }
+  ]
+}
